@@ -1,0 +1,42 @@
+{
+  "name": "restful-template-ts",
+  "version": "1.0.0",
+  "description": "A library that help you get your RESTful API typescript project started by creating a template ready for use by running simple cli commands",
+  "main": "index.js",
+  "bin": "./dist/src/bin/restful-template-ts.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MinaKamelA/restful-template-ts.git"
+  },
+  "keywords": [
+    "REST",
+    "RESTful",
+    "API",
+    "api",
+    "typescript",
+    "template"
+  ],
+  "author": "Mina Kamel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MinaKamelA/restful-template-ts/issues"
+  },
+  "homepage": "https://github.com/MinaKamelA/restful-template-ts#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^9.2.0",
+    "configstore": "^3.1.5",
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "@types/colors": "^1.2.1",
+    "@types/commander": "^2.12.2",
+    "@types/configstore": "^5.0.1",
+    "@types/inquirer": "^8.2.1",
+    "typescript": "^4.6.4"
+  }
+}
