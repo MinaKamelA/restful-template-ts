@@ -1,6 +1,7 @@
 import SchemaManager from "../lib/SchemaManager";
 import inquirer from "inquirer";
 import colors from "colors";
+import isRequired from "../utils/validation";
 
 const schemaManager = new SchemaManager();
 const schema = {
@@ -10,6 +11,7 @@ const schema = {
                 type: 'input',
                 name: 'number',
                 message: 'Enter the number of tables (routes) in your schema: '.green,
+                validate: isRequired
             }
             ]); 
             const number = schemaManager.setNumberOfTables(input.number);
